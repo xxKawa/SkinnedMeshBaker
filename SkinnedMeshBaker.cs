@@ -97,7 +97,7 @@ namespace EditorTools
 
             var mf = target.gameObject.AddComponent<MeshFilter>();
             mf.sharedMesh = bakedMesh;
-+
+
             var mr = target.gameObject.AddComponent<MeshRenderer>();
             CopyRendererProperties(smr, mr);
 
