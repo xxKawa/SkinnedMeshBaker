@@ -1,11 +1,13 @@
 # SkinnedMeshBaker
 
 一个 Unity 编辑器工具，用于将**蒙皮网格渲染器（SkinnedMeshRenderer）** 烘焙为MeshRenderer，生成可复用的 Prefab。
+
 使其使用的模型保持其姿态，并降低渲染负载。接收Bakery的预烘焙光照。此外，还可阻止从世界数据中提取其模型数据。
 
 ### 特别致谢 / Special Thanks
 
 [SkinnedMeshBaker(アバターポーズ固定するやつ) - バーチャルマーケット](https://vket.com/docs/submission_tips_skinned_mesh_baker)
+
 此链接为Vket官方提供的SkinnedMeshBaker（曾用名AvatarPoseBaker），在我所需要时提供了莫大的帮助。但与此同时程序中针对Bones部分为0时无法正确处理，所以重新编写了此工具。
 
 ## 使用方法
